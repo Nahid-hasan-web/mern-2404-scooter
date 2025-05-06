@@ -1,0 +1,185 @@
+/* ------------------------- font links part start ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* ------------------------ font links part end ------------------- */
+
+/* ------------------------- common css part start ---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align:middle;
+}
+:root{
+    --ubuntu:"Ubuntu", sans-serif;
+    --primaryColor:#42454A
+}
+
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- navbar css part start ---------------- */
+
+.main_menu{
+    padding:26px 0 ;
+    border-bottom: 1px solid #EAE8F3;
+}
+.main_menu img{
+ width: 70px;
+}
+.main_menu ul {
+    gap: 75px;
+}
+.main_menu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor)  !important;
+    padding: 0 !important;
+}
+.menu_buttons a:nth-child(1){
+    width: 102px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+}
+.menu_buttons a:nth-child(2){
+    width: 106px;
+    height: 48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: #fff;
+    background: var(--primaryColor);
+}
+.menu_buttons{
+    width: 232px;
+    display: flex;
+    gap: 24px;
+}
+
+/* ------------------------ navbar css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
+/* ------------------------- common css part start ---------------- */
+
+
+/* ------------------------ common css part end ------------------- */
