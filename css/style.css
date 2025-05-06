@@ -86,11 +86,66 @@ img{
     gap: 24px;
 }
 
+
 /* ------------------------ navbar css part end ------------------- */
-/* ------------------------- common css part start ---------------- */
+/* ------------------------- baner css part start ---------------- */
 
 
-/* ------------------------ common css part end ------------------- */
+.banner_text h1{
+    font-size: 90px;
+    font-weight: 300;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+
+.banner_text h1 span{
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: type 1s steps(90) 1s 1 normal both, cursor 1s step-end infinite;
+    position: relative;
+  }
+  
+  @keyframes type {
+    from {
+      width: 0;
+    }  
+    to {
+      width: 48%;
+    }
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+.banner_text .banner_line{
+    width: 335px;
+    height: 4px;
+    background:var(--primaryColor);
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+:root {
+    --primary-color: #c8dc71;
+    --gradient-color: linear-gradient(180deg, #d2ff00 0%, #00d2ff 100%);
+  }
+  
+
+  
+
+  
+
+  
+  /* Custom */
+  
+
+  
+/* ------------------------ baner css part end ------------------- */
 /* ------------------------- common css part start ---------------- */
 
 
