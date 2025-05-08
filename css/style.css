@@ -31,8 +31,24 @@ img{
     --ubuntu:"Ubuntu", sans-serif;
     --primaryColor:#42454A
 }
+.common_head{
+    text-align: center;
+}
 
-
+.common_head h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+    
+}
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+    margin-top: 34px;
+}
 
 /* ------------------------ common css part end ------------------- */
 /* ------------------------- navbar css part start ---------------- */
@@ -196,18 +212,93 @@ img{
 
   
 /* ------------------------ baner css part end ------------------- */
-/* ------------------------- common css part start ---------------- */
+/* ------------------------- counter css part start ---------------- */
+#coutner{
+    padding-top: 209px;
+}
+
+#coutner .singel_counter{
+    width: 174px;
+    height: 137px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+ .singel_counter h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+}
+
+.singel_counter h2 span{
+    font-size: 40px;
+}
+.singel_counter p{
+   font-size: 13px;
+   font-weight: 400;
+   font-family: var(--ubuntu);
+   color: var(--primaryColor);
+}
+.all_counters{
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------------ counter css part end ------------------- */
+/* ------------------------- Accessories css part start ---------------- */
 
 
-/* ------------------------ common css part end ------------------- */
-/* ------------------------- common css part start ---------------- */
+#accessories{
+    padding-top: 315px;
+}
 
+.accessories_row{
+    margin-top: 112px;
+}
+.accessories_text h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+}
+.accessories_text ul li{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-top: 33px;
+}
+.accessories_text ul li  img{
+    width: 49px;
+}
+.accessories_text ul li p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primaryColor);
+}
+/* ------------------------ Accessories css part end ------------------- */
+/* ------------------------- Shopping css part start ---------------- */
 
-/* ------------------------ common css part end ------------------- */
-/* ------------------------- common css part start ---------------- */
-
-
-/* ------------------------ common css part end ------------------- */
+#Shopping{
+    margin-top: 131px;
+    position: relative;
+}
+.shopping_text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.shopping_scooter img{
+    width: 779px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* ------------------------ Shopping css part end ------------------- */
 /* ------------------------- common css part start ---------------- */
 
 
